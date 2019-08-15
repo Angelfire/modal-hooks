@@ -14,7 +14,7 @@ const App = () => {
       <Modal isShowing={isShowing} hide={toggle}>
         <p>Hello World</p>
       </Modal>
-      <p>
+      <p className="more-info">
         <a
           href="https://github.com/Angelfire/modal-hooks"
           title="Modal using React Hooks"

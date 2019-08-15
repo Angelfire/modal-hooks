@@ -1,6 +1,16 @@
 .App {
   align-items: center;
   display: flex;
+  flex-direction: column;
   height: 100vh;
   justify-content: center;
+}
+
+.more-info {
+  margin-top: 12px;
+}
+
+.more-info a {
+  color: #3273dc;
+  text-decoration: none;
 }
