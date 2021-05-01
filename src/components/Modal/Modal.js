@@ -12,36 +12,36 @@ const Modal = ({ isShowing, hide, children }) => {
 
   return isShowing
     ? createPortal(
-        <Fragment>
-          <div className="modal-overlay" />
-          <div
-            className="modal-wrapper"
-            aria-modal
-            aria-hidden
-            tabIndex={-1}
-            role="dialog"
-            onClick={handleClickOverlay}
-          >
-            <div className="modal modal-animated modal-animation-fade-in">
-              <div className="modal-content">
-                <div className="modal-header">
-                  <button
-                    type="button"
-                    className="modal-close-button"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                    onClick={hide}
-                  >
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div className="modal-body">{children}</div>
+      <Fragment>
+        <div className="modal-overlay" />
+        <div
+          className="modal-wrapper"
+          aria-modal
+          aria-hidden
+          tabIndex={-1}
+          role="dialog"
+          onClick={handleClickOverlay}
+        >
+          <div className="modal modal-animated modal-animation-fade-in">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="modal-close-button"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                  onClick={hide}
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
               </div>
+              <div className="modal-body">{children}</div>
             </div>
           </div>
-        </Fragment>,
-        document.body
-      )
+        </div>
+      </Fragment>,
+      document.body
+    )
     : null;
 };
 

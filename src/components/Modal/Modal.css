@@ -6,13 +6,13 @@
   width: 100vw;
   height: 100vh;
   background-color: #000;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .modal-wrapper {
   display: inline-table;
   position: fixed;
-  padding: .5rem;
+  padding: 0.5rem;
   top: 0;
   left: 0;
   z-index: 1050;
@@ -39,7 +39,7 @@
 .modal-header {
   display: flex;
   align-items: flex-start;
-  padding: 1.5rem 1.5rem .5rem 1.5rem;
+  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
 }
 
 .modal-body {
@@ -48,7 +48,7 @@
   flex-direction: column;
   width: 100%;
   background-color: #fff;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
 
 .modal-close-button {
@@ -59,20 +59,20 @@
   font-weight: 700;
   line-height: 1;
   color: #000;
-  opacity: .3;
+  opacity: 0.3;
   cursor: pointer;
   border: none;
   outline: 0 !important;
 }
 
 .modal-close-button:hover {
-  opacity: .8;
+  opacity: 0.8;
   text-decoration: none;
 }
 
 .modal-animated {
-  -webkit-animation-duration: .5s;
-  animation-duration: .5s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }

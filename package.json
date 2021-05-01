@@ -1,28 +1,19 @@
 {
-  "name": "modal-hooks",
+  "name": "hook-modal",
   "version": "1.0.0",
-  "description": "Modal using hooks",
-  "main": "./src/index.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "parcel public/index.html --open",
-    "build": "parcel build public/index.html"
+    "start": "parcel serve ./public/index.html",
+    "build": "parcel build ./public/index.html"
   },
-  "author": "Andrés Bedoya",
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
-  },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.12.3"
+    "parcel": "^2.0.0-beta.2"
   },
-  "browserslist": [
-    "last 1 version",
-    "> 3%",
-    "maintained node versions",
-    "not dead"
-  ]
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
